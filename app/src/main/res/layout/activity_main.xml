@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="64dp"
+    android:layout_marginRight="64dp"
+    android:orientation="vertical"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:text="My Nanodegree Apps!"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/popular_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E3D49"
+        android:text="Popular Movies"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/stock_hawk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E3D49"
+        android:text="Stock Hawk"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/build_bigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E3D49"
+        android:text="Build It Bigger"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/make_it_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E3D49"
+        android:text="Make Your App Material"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/go_ubiquitous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E3D49"
+        android:text="Go Ubiquitous"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/capstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E3D49"
+        android:text="Capstone"
+        android:textColor="#fff" />
+</LinearLayout>
